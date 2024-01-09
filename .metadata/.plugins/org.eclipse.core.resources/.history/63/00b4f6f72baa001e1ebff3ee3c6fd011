@@ -1,0 +1,17 @@
+package com.example.demo.model;
+//src/main/java/com/example/demo/model/FormData.java
+public class User {
+ private String firstName;
+ private String lastName;
+public Object[] getFirstName() {
+	// TODO Auto-generated method stub
+	return null;
+}
+public int[] getLastName() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
+ // getters and setters
+}
+

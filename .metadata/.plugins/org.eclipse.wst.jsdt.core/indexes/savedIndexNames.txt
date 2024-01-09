@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+/home/miracle/Desktop/sadana/eclipse-javas/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3445572423.index
+695225099.index
+2579116253.index
+1179999759.index
+586765567.index
+3167065824.index
+2454200383.index
+1384670812.index

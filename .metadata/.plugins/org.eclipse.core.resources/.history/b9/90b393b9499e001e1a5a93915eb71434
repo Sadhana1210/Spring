@@ -1,0 +1,20 @@
+package mine;
+class Ac{
+	Ac show() {
+		return this;
+	}
+}
+class Bc{
+	Bc show() {
+		return this;
+	}
+}
+
+public class Covarient {
+	public static void main(String[] args) {
+		
+	
+Bc b=new Bc();
+b.show();
+	}
+}

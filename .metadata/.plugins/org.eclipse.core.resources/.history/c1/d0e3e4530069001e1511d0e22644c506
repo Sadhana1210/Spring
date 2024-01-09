@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body><center>
+<h4>Welcome To Trainee</h4>
+<button><a href="updater.html">Update</a></button>
+<button><a href="deleter.html">Delete</a></button>
+<button><a href="selectr.html">Select</a></button>
+</center>
+</body>
+</html>

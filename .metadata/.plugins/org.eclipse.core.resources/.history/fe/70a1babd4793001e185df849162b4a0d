@@ -1,0 +1,39 @@
+package mine;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+import java.util.*;    
+class Book {    
+int id;    
+String n;   
+public Book(int id, String n) {    
+    this.id = id;
+    this.n=n;
+}    
+}    
+public class TreeObj{    
+public static void main(String[] args) {    
+    //Creating map of Books    
+    Set<Book> map=new HashSet<Book>();    
+    //Creating Books    
+    Book b1=new Book(101,"Let us C");    
+    Book b2=new Book(102,"Data Communications & Networking");    
+    Book b3=new Book(103,"Operating System");    
+    //Adding Books to map   
+    map.add(b1);  
+    map.add(b2);  
+    map.add(b3);  
+      
+    //Traversing map  
+//   / for(Map.Entry<Integer, Book> entry:map.entrySet()){    
+//        int key=entry.getKey();  
+//        Book b=entry.getValue();  
+//        System.out.println(key+" Details:");  
+//        System.out.println(b.id+" "+b.name+" "+b.author+" "+b.publisher+" "+b.quantity);   
+//    }    
+    for(Book b:map) {
+    	System.out.println(b.id+" "+b.n);
+    }
+}    
+}    

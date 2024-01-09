@@ -1,0 +1,37 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.example.demo.model.User;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+@Controller
+public class Controller111 {
+//src/main/java/com/example/demo/controller/FormController.java
+
+ private final JdbcTemplate jdbcTemplate;
+
+ public Controller111(JdbcTemplate jdbcTemplate) {
+     this.jdbcTemplate = jdbcTemplate;
+ }
+
+ @GetMapping("/form")
+ public String showForm() {
+     return "form";
+ }
+
+ @PostMapping("/form")
+ public String submitForm(@ModelAttribute User formData) {
+     // Insert data into the database using Spring JDBC
+     jdbcTemplate.update("INSERT INTO your_table_name (first_name, last_name) VALUES (?, ?)",
+             formData.getFirstName(), formData.getLastName());
+
+     return "redirect:/form-success"; // Redirect to a success page
+ }
+}

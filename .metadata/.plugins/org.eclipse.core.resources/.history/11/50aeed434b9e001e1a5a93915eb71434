@@ -1,0 +1,22 @@
+package mine;
+class Ac{
+	Ac show() {
+		System.out.println("hii");
+		return this;
+	}
+}
+class Bc{
+	Bc show() {
+		System.out.println("hlo");
+		return this;
+	}
+}
+
+public class Covarient {
+	public static void main(String[] args) {
+		
+	
+Bc b=new Bc();
+b.show();
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;task.Sadha&apos; to &apos;CovarientReturnType&apos;&#x0A;- Original project: &apos;sravani&apos;&#x0A;- Original element: &apos;task.Sadha&apos;&#x0A;- Renamed element: &apos;task.CovarientReturnType&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Sadha&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;task{Sadha.java[Sadha" matchStrategy="1" name="CovarientReturnType" qualified="false" references="true" similarDeclarations="false" stamp="1700197553775" textual="false" version="1.0"/>
+</session>

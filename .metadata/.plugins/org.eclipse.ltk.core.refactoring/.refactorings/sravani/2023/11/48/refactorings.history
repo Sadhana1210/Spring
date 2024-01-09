@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;mine.Duplicates.java&apos; to &apos;Diff_class_exception.java&apos;&#x0A;- Original project: &apos;sravani&apos;&#x0A;- Original element: &apos;mine.Duplicates.java&apos;&#x0A;- Renamed element: &apos;mine.Diff_class_exception.java&apos;" description="Rename compilation unit &apos;Duplicates.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;mine{Duplicates.java" name="Diff_class_exception.java" references="false" stamp="1701079388368" version="1.0"/>
+</session>

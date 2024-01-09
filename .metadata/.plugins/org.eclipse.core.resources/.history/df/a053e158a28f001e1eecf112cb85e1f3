@@ -1,0 +1,16 @@
+package mine;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Duplicate_col {
+public static void main(String[] args) {
+	int array [] = {1,2,3,4,5};
+	Map <Integer,Integer> m=new HashMap<>();
+	for(Integer i:array)
+	{
+		i=m.put(i, i);
+	}
+	System.out.println(m);
+}
+}

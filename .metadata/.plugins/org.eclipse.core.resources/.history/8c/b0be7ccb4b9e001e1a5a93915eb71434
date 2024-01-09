@@ -1,0 +1,25 @@
+package mine;
+class Ac{
+	Ac show() {
+		System.out.println("hii");
+		return this;
+	}
+}
+class Bc extends Ac{
+	Bc show() {
+		super.show();
+		System.out.println("hlo");
+		return this;
+	}
+}
+
+public class Covarient {
+	public static void main(String[] args) {
+		
+	
+Bc b=new Bc();
+Ac a=new Bc();
+b.show();
+a.show();
+	}
+}

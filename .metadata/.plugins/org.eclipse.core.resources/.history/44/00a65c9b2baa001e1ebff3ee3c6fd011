@@ -1,0 +1,9 @@
+package com.example.demo.model;
+//src/main/java/com/example/demo/model/FormData.java
+public class User {
+ private String firstName;
+ private String lastName;
+
+ // getters and setters
+}
+

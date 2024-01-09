@@ -1,0 +1,16 @@
+package mine;
+class Ac{
+	Ac show() {
+		return this;
+	}
+}
+class Bc{
+	Bc show() {
+		return this;
+	}
+}
+
+public class Covarient {
+Bc b=new Bc();
+b.show();
+}

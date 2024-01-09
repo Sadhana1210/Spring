@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Hrinsert" >
+id<input type="text" name="id">
+fname<input type="text" name="fname">
+lname<input type="text" name="lname">
+dept<input type="text" name="dept">
+email <input type="text" name="email">
+role<input type="text" name="role">
+<input type="submit" value="submit">
+</form>
+
+</body>
+</html>

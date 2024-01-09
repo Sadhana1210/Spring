@@ -1,0 +1,39 @@
+package mine;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+import java.util.*;    
+class Book1 implements Comparable {    
+int id;    
+String n;   
+public Book1(int id, String n) {    
+    this.id = id;
+    this.n=n;
+}    
+}    
+public class TreeObj{    
+public static void main(String[] args) {    
+    //Creating map of Books    
+    Set<Book1> map=new TreeSet<Book1>();    
+    //Creating Books    
+    Book1 b1=new Book1(101,"Let us C");    
+    Book1 b2=new Book1(102,"Data Communications & Networking");    
+    Book1 b3=new Book1(103,"Operating System");    
+    //Adding Books to map   
+    map.add(b1);  
+    map.add(b2);  
+    map.add(b3);  
+      System.out.println(map);
+    //Traversing map  
+//   / for(Map.Entry<Integer, Book> entry:map.entrySet()){    
+//        int key=entry.getKey();  
+//        Book b=entry.getValue();  
+//        System.out.println(key+" Details:");  
+//        System.out.println(b.id+" "+b.name+" "+b.author+" "+b.publisher+" "+b.quantity);   
+//    }    
+    for(Book1 b:map) {
+    	System.out.println(b.id+" "+b.n);
+    }
+}    
+}    

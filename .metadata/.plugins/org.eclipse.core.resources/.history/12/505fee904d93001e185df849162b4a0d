@@ -1,0 +1,20 @@
+package mine;
+
+import java.util.HashMap;
+import java.util.Map;
+
+class Joy{
+	int i;
+	String s;
+
+Joy(int id,String st){
+	i=id;
+	s=st;
+}
+}
+public class MapObj {
+	Joy j1=new Joy(1,"sai");
+	Joy j2=new Joy(2,"sadh");
+Map<Integer,Joy>m=new HashMap<Integer,Joy>();
+System.Out.Println(m);
+}
